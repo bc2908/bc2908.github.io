@@ -6,3 +6,23 @@ https://hub.docker.com/_/nginx/
 
 Jet brains Kotlin Webstorm Rider.net
 
+apk update:tai ve danh sach phan mem moi nhat
+apk upgrade:nang cap phan mem
+
+apk add nano
+
+apk add tree
+———————————————————————————
+docker ps
+docker rm
+docker start
+docker-compose up
+docker attach
+docker run -d —-name container-name -p80:80 nginx:alpine
+-d:detach
+docker exec -it name-container /bin/ash
+wget -0 name-file —no-check-certificate url-file
+———————————————————————————
+
+
+
