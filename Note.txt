@@ -25,4 +25,25 @@ wget -0 name-file —no-check-certificate url-file
 ———————————————————————————
 
 
+Bo cuc - Mau sac - Chu
 
+Bo cuc - ti le
+	+ti le vang
+	+ti le 1-1,1-2
+	+hinh khoi
+Mau sac
+	+hai hoa
+	+mau sac so nen de dien tich nho 
+	+phoi mau
+Chu viet
+	+Typho
+		-font-size
+		-font-face
+		-font effect
+		-phoi font(combination)
+	+Text
+		-paragraph
+		-space
+		-can le
+you say it but when you say nothing at all
+make decided quickly
