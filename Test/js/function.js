@@ -51,7 +51,7 @@ function bai4(chuoi) {
     }
     return chuoiHoa + chuoiHai;
 }
-console.log(bai4("techMaster is very fun"));
+//console.log(bai4("techMaster is very fun"));
 
 //Bài 5
 function bai5(mang) {

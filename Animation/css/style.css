@@ -23,6 +23,12 @@
     font-size: 20px;
 }
 
+@keyframes tittle
+{
+    50% {color: burlywood;}
+    100% {color: gray;}
+}
+
 .content-title
 {
     width: 100%;
@@ -30,6 +36,7 @@
     position: relative;
     top: 0;
     left: 0;
+    animation: tittle 10s ease infinite;
 }
 
 .child-img
@@ -57,6 +64,7 @@
     float: left;
     width: 25%;
     height: 150px;
+    overflow: hidden;
 }
 
 .mask
@@ -149,3 +157,21 @@
     width: 32px;
     height: 32px;
 }
+
+#author
+{
+    position: absolute;
+    top: 710px;
+    right: 70px;
+    animation: author 10s ease infinite;
+}
+
+@keyframes author
+{
+    50% {transform: translate(5px,5px);}
+}
+
+
+
+
+
