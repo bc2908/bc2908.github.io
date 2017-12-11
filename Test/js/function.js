@@ -41,7 +41,7 @@ function bai4(chuoi) {
     //Viết hoa từ đầu tiên
     var chuoiHoa = "";
     for (var i = 0; i < chuoiMot.length; i++) {
-        if (chuoiMot.charCodeAt(i) <= 90 || chuoiMot.charCodeAt[i] >= 65) {
+        if (chuoiMot.charCodeAt(i) <= 90 && chuoiMot.charCodeAt(i) >= 65) {
             chuoiHoa += chuoiMot[i];
         } else {
             var n = chuoiMot.charCodeAt(i);
@@ -51,7 +51,7 @@ function bai4(chuoi) {
     }
     return chuoiHoa + chuoiHai;
 }
-//console.log(bai4("techMaster is very fun"));
+console.log(bai4("techMaster is very fun"));
 
 //Bài 5
 function bai5(mang) {
