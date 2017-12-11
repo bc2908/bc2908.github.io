@@ -78,8 +78,8 @@ function getAscii(ten) {
     return n;
 }
 function bai6(mang) {
-    var mangCu=mang;
-    document.write("Danh sách học viên ban đầu: "+mangCu+"<br>");
+    var mangCu = mang;
+    document.write("Danh sách học viên ban đầu: " + mangCu + "<br>");
     //Sắp xếp tên theo bảng chữ cái tiếng anh
     for (var i = 0; i < mang.length - 1; i++) {
         for (var j = i + 1; j > 0; j--) {
@@ -94,9 +94,42 @@ function bai6(mang) {
         }
     }
     //document.write(mangCu+"<br>");
-    document.write("Danh sách học viên sau khi sắp xếp: "+mang);
+    document.write("Danh sách học viên sau khi sắp xếp: " + mang);
 }
 //console.log(bai6(mangHocVien));
 
 //Bài 7
+//Khởi tạo đối tượng
+var teacher = {
+    firstName: "Josh",
+    lastName: "Bush",
+    age: 65,
+    say: function () { }
+}
+var student = {
+    firstName: "Donald",
+    lastName: "Trump",
+    age: 70,
+    say: function () { }
+}
+var parent = {
+    firstName: "Barack",
+    lastName: "Obama",
+    age: 55,
+    say: function () { }
+}
+var aboutme = function () {
+    document.write("Xin chào, tôi là " + this.firstName + " " + this.lastName + ". Năm nay tôi " + this.age + " tuổi." + "<br>");
+}
+function bai7() {
+    teacher.say = aboutme;
+    teacher.say();
+
+    student.say = aboutme;
+    student.say();
+
+    parent.say = aboutme;
+    parent.say();
+}
+//bai7();
 
