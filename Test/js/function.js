@@ -63,7 +63,40 @@ function bai5(mang) {
     }
     return min;
 }
-var mangA = [6, 2, 9, 8, 7, 1, 2, 4, 3];
-console.log(bai5(mangA));
+//var mangA = [6, 2, 9, 8, 7, 1, 2, 4, 3];
+//console.log(bai5(mangA));
 
 //Bài 6
+var mangHocVien = ["Văn", "hoàng", "nam", "Bình", "Cường"];
+function getAscii(ten) {
+    //Lấy mã ascii kí tự đầu của tên đầu tiên
+    var n = ten.charCodeAt(0);
+    //Nếu là mã chữ hoa thì chuyển về mã chữ thường
+    if (n < 97) {
+        n += 32;
+    }
+    return n;
+}
+function bai6(mang) {
+    var mangCu=mang;
+    document.write("Danh sách học viên ban đầu: "+mangCu+"<br>");
+    //Sắp xếp tên theo bảng chữ cái tiếng anh
+    for (var i = 0; i < mang.length - 1; i++) {
+        for (var j = i + 1; j > 0; j--) {
+            var temp = "";
+            var ss1 = getAscii(mang[j]);
+            var ss2 = getAscii(mang[j - 1]);
+            if (ss1 < ss2) {
+                temp = mang[j];
+                mang[j] = mang[j - 1];
+                mang[j - 1] = temp;
+            }
+        }
+    }
+    //document.write(mangCu+"<br>");
+    document.write("Danh sách học viên sau khi sắp xếp: "+mang);
+}
+//console.log(bai6(mangHocVien));
+
+//Bài 7
+
