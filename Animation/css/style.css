@@ -64,7 +64,12 @@
     float: left;
     width: 25%;
     height: 150px;
-    overflow: hidden;
+}
+
+.content-img img
+{
+    opacity: 1;
+    transition: opacity 0.5s linear;
 }
 
 .mask
@@ -81,7 +86,7 @@
 {
     display: none;
     font-style: italic;
-    color: lightcyan;
+    color: goldenrod;
     font-weight: bold;
 }
 
@@ -100,6 +105,11 @@
     margin-bottom: 30px;
     font-style: normal;
     text-transform: uppercase;
+}
+
+.content-img:hover img
+{
+   opacity: 0.2;
 }
 
 .content-img:hover .detail-img
@@ -163,12 +173,15 @@
     position: absolute;
     top: 710px;
     right: 70px;
-    animation: author 10s ease infinite;
+    opacity: 0;
+    animation: author 5s ease-in-out infinite;
+    animation-delay: 2s;
 }
 
 @keyframes author
 {
-    50% {transform: translate(5px,5px);}
+    10% {opacity: 1;}
+    100% {transform: translate(-750px);opacity: 0;}
 }
 
 
