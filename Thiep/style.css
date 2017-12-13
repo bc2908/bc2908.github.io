@@ -1,0 +1,55 @@
+#wrapper
+{
+    width: 1280px;
+    height: auto;
+    margin: auto;
+    padding-top: 100px;
+}
+#thiep
+{
+    height: 667px;
+    width: 1000px;
+    margin: auto;
+    background-image: url("birthday.png");
+    position: relative;
+}
+#content
+{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 500px;
+}
+.wish
+{
+    font-size: 65px;
+    font-family: 'Berkshire Swash', cursive;
+    opacity: 0.2;
+    animation: nhapnhay 10s ease-in-out infinite;
+}
+#snow{
+	background: none;
+	font-family: Androgyne;
+    background-image: url('s1.png'), url('s2.png'), url('s3.png');
+    height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+    z-index:1;
+    animation: snow 10s linear infinite;
+}
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@keyframes nhapnhay {
+    0% {opacity: 0.4;color: goldenrod}
+    20% {opacity: 0.6;color: powderblue;}
+    40% {opacity: 0.8;color: burlywood;}
+    50% {opacity: 1;color: yellow;}
+    60% {opacity: 1;color: palegoldenrod}
+    80% {opacity: 1;color: purple;}
+    100% {opacity: 1;color: yellowgreen;}
+}
