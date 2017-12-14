@@ -56,6 +56,7 @@
 .content
 {
     position: relative;
+    height: 800px;/*Fix độ phủ của thẻ div cha*/
 }
 
 .content-img
