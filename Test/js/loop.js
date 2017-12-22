@@ -9,10 +9,10 @@ function bai1(n) {
 
 //Bài 2.Đảo ngược chuỗi
 function bai2(str) {
-    var strNew = "abc";
-    for (var i = str.length; i >= 0; i--) {
+    var strNew = " ";
+    for (var i = str.length-1; i >= 0; i--) {
         strNew += str[i];
     }
     return strNew;
 }
-//console.log(bai2("hello"));
+console.log(bai2("hello"));
