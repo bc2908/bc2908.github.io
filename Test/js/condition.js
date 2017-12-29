@@ -90,3 +90,38 @@ function bai4(user) {
     }
 }
 console.log(bai4(user));
+
+//Dao Tu
+function daotu(str) {
+    var strNew = "";
+    var lastSpace = 0;
+    var lastStr = "";
+
+    for (var i = str.length; i >= 0; i--) {
+        if (str[i] == " ") {
+            lastSpace = i;
+            break;
+        }
+    }
+
+    for (var j = str.length - 1; j > lastSpace; j--) {
+        lastStr += str[j];
+    }
+
+    for (var i = 0; i < str.length; i++) {
+        if (str[i] == " ") {
+            for (var j = i - 1; j >= 0; j--) {
+                if (str[j] != " ") {
+                    strNew += str[j];
+                } else {
+                    break;
+                }
+            }
+            strNew += " ";
+        }
+    }
+
+    return strNew + lastStr;
+}
+console.log(daotu("abc def wed cuong duy"));
+
