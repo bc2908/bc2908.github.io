@@ -1,8 +1,8 @@
 //Bài 1
 function bai1(x, y) {
     //Kiểm tra tham số có phải là số không
-    if (isNaN(x) == true || isNaN(y) == true) {
-        document.write("Tham số không phải là số");
+    if (typeof (x) != "number" || typeof (y) != "number") {
+        document.write("Tham số không phải là số" + "<br>");
     } else {
         //Tìm số lớn nhất trong 2 số
         if (x > y) {
@@ -12,12 +12,12 @@ function bai1(x, y) {
         }
     }
 }
-//console.log(bai1(4,13));
+console.log(bai1(12, "2589999999"));
 
 //Bài 2
 function bai2(x) {
     //Kiểm tra tham số có phải là số nguyên dương không
-    if (isNaN(x) == false && x > 0) {
+    if (typeof (x) == "number" && x > 0) {
         for (var i = x - 1; i > 1; i--) {
             x *= i;
         }
@@ -26,7 +26,7 @@ function bai2(x) {
         document.write("Tham số không phải là số nguyên dương");
     }
 }
-//console.log(bai2(5));
+console.log(bai2(5));
 
 //Bài 3
 function bai3(arr) {
@@ -49,8 +49,8 @@ function bai3(arr) {
     }
     return newArr;
 }
-//var arr = [3, 5, 4, 23, 8, 19, 33, 56, 11, 2, 10];
-//console.log(bai3(arr));
+var arr = [3, 5, 4, 23, 8, 19, 33, 56, 11, 2, 10];
+console.log(bai3(arr));
 
 //Bài 4
 user = {
@@ -89,4 +89,4 @@ function bai4(user) {
         console.log("Thông tin người dùng không hợp lệ");
     }
 }
-//console.log(bai4(user));
+console.log(bai4(user));

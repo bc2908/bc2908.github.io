@@ -9,13 +9,13 @@ function bai1(n) {
 
 //Bài 2.Đảo ngược chuỗi
 function bai2(str) {
-    var strNew = " ";
+    var strNew = "";
     for (var i = str.length - 1; i >= 0; i--) {
         strNew += str[i];
     }
     return strNew;
 }
-//console.log(bai2("hello"));
+console.log(bai2("hello"));
 
 //Bài 3.Sao chép chuỗi
 function duplicate(str) {
@@ -25,10 +25,10 @@ function duplicate(str) {
 
     lastStr = str;
 
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < 9; i++) {
         if (i < 1) {
             str += firstStr;
-        } else if (i < 9) {
+        } else if (i < 8) {
             str += midStr;
         } else {
             str += lastStr;
@@ -40,7 +40,7 @@ function bai3() {
     var result = duplicate("123");
     return result;
 }
-//console.log(bai3());
+console.log(bai3());
 
 //Bài 4.Sắp xếp thứ tự tên học viên theo bảng chữ cái
 function bai4(arrStudent) {
