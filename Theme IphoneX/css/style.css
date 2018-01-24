@@ -1,12 +1,294 @@
-.block-home
-{
+/* Import My Font */
+@import url("myfont.css");
+* {
+    font-family: "ralewaysemibold",Arial, Helvetica, sans-serif;
+}
+/* End My Font */
+
+/* Global */
+.bg-blue {
     background-color: #090b1e;
-}
-.logo
-{
-    padding-top: 12px;
-}
-.menu-home a
-{
     color: white;
 }
+.bg-white {
+    background-color: white;
+}
+h3 {
+    font-size: 2.25rem;
+    text-align: center;
+}
+/* Style devices 768px to up */
+@media (min-width: 768px) {
+    .box-left {
+        padding-left: 1.875rem;
+    }
+}
+/* End Global */
+
+/* Style Block Home */
+    /* Style Menu Home */
+    /* Style devices phone */
+    .menu-home {
+        width: 100%;
+    }
+    .menu-home i {
+        color: white;
+    }
+    .menu-home ul {
+        width: 100%;
+    }
+    .menu-home ul li.active {
+        border-bottom: 0.03125rem solid white;
+    }
+    .menu-home ul li {
+        margin-right: 0.9rem;
+    }
+    .menu-home a {
+        color: #b7b7ba;
+    }
+    .menu-home a:hover {
+        color:white;
+    }
+    .menu-home ul li.active a {
+        color: white;
+    }
+
+    /* Style devices 768px to up */
+    @media (min-width: 768px) {
+    .menu-home .navbar-brand {
+        padding-top: 2.5rem;
+        padding-left: 0.875rem;
+    }
+    .menu-home ul {
+        padding-top: 3.4375rem;
+        padding-right: 1.6875rem;
+    }
+    .menu-home ul li.no-active:hover {
+        background-image: url(../img/border-menu.png);
+        background-repeat: no-repeat;
+    }
+    .menu-home ul li {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+    }
+
+    /* Style devices 1024px to up */
+    @media (min-width: 1024px) {
+    .menu-home ul li {
+        margin-right: 2.5rem;
+    }
+    .menu-home ul li:last-child {
+        margin-right: 0rem;
+        margin-left: 1.25rem;
+    }
+    }
+    /* End Style Menu Home */
+
+    /* Style Content Home */
+    /* Style devices phone */
+    .part-left-home {
+        padding-top: 1.5rem;
+    }
+    .part-left-home h4 {
+        margin-top: 1.25rem;
+        letter-spacing: 0.1rem;
+        margin-bottom: 3.125rem;
+    }        
+    .part-left-home p.p-first {
+        margin-top: 1.5rem;
+    }
+    .part-left-home button {
+        margin-top: 3.125rem;
+        background: url(../img/bg-button1.png);
+        background-repeat: repeat-y;
+        color: white;
+    }
+    .part-right-home {
+        padding-top: 2rem;
+        padding-bottom: 3.75rem;
+    }
+
+    /* Style devices 768px to up */
+    @media (min-width: 768px) {
+    .part-right-home {
+        padding-top: 9.0625rem;
+        padding-bottom: 5.625rem;
+    } 
+    .part-left-home {
+        padding-top: 10rem;
+    }
+    .part-left-home h4 {
+        letter-spacing: 0.19rem;
+    } 
+    }
+
+    /* Style only devices 1024px */
+    @media (min-width: 1024px) and (max-width: 1024px) {
+    .part-left-home {
+        padding-top: 13.75rem !important;
+    }
+    }
+
+    /* Style devices 1024px to up */
+    @media (min-width: 1024px) {
+    .part-right-home {
+        padding-right: 1.875rem;
+    }
+    .part-left-home {
+        padding-top: 17.25rem;
+    }
+    .part-left-home h4 {
+        letter-spacing: 0.47rem;
+    }
+    }
+    /* End Style Content Home */
+/* End Style Block Home */
+
+/* Style Block Why Iphone */
+/* Style devices phone */
+.block-why-ip .col-lg-6 {
+    display: none;
+}
+.block-why-ip h3 {
+    margin-top: 0.9375rem;
+    margin-bottom: 0.625rem;
+}
+.box-info p {
+    font-size: 1rem;
+    text-align: justify;
+}
+.box-info h5 {
+    font-size: 1.5rem;
+}
+
+/* Style devices 768px to up */
+@media (min-width: 768px) {
+.block-why-ip {
+    padding-bottom: 1.875rem;
+}
+.block-why-ip .col-lg-3 {
+    padding: 0;
+}
+.block-why-ip .box-info {
+    border: 0.03125rem solid grey;
+    margin: 0.03125rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+.box-info h5 {
+    text-align: center;
+}
+.box-info p {
+    font-size: 0.875rem;
+}
+}
+
+/* Style devices 1024px to up */
+@media (min-width: 1024px) {
+.block-why-ip {
+    padding-bottom: 6.25rem;
+}
+.block-why-ip h3 {
+    margin-bottom: 5.625rem;
+    margin-top: 6.25rem;
+}
+.block-why-ip .col-lg-6 {
+    display: block;
+}
+.block-why-ip .box-info {
+    border: none;
+    margin: initial;
+}
+.block-why-ip .box-info h5 {
+    font-size: 1.3125rem;
+}
+.box-info.left-title-info h5 {
+    text-align: right;
+}
+.box-info.left-title-info p {
+    text-align: right;
+}
+.box-info.right-title-info h5 {
+    text-align: left;
+}
+.box-info.right-title-info p {
+    text-align: left;
+}
+}
+
+/* Style devices 1366px to up */
+@media (min-width: 1366px) {
+.block-why-ip .col-lg-3 {
+    padding-top: 3.125rem;
+}
+.block-why-ip .box-info h5 {
+    margin-bottom: 1.875rem;
+    margin-top: 0.625rem;
+}
+.block-why-ip .box-info.right-title-info:last-child h5 {
+    margin-top: 2.0625rem;
+}
+}
+/* End Style Block Why Iphone */
+
+/* Style Block Wirless */
+/* Style devices phone */
+.block-wirless
+{
+    padding-bottom: 1.875rem;
+    padding-top: 1.875rem;
+}
+.block-wirless .col-md-6
+{
+     overflow: hidden;
+}
+.block-wirless img
+{
+    margin-left: 3.125rem;
+}
+/* Style devices 768px to up */
+@media (min-width: 768px) {
+.block-wirless .box-info {
+    border: none;
+} 
+.block-wirless img {
+    margin-left: 0;
+    margin-top: 5.9375rem;
+}
+}
+
+/* Style devices 1024px to up */
+@media (min-width: 1024px) {
+.block-wirless h3 {
+    margin-top: 4.6875rem;
+}
+.block-wirless img {
+    margin-top: 1.5625rem;
+}
+}
+
+/* Style devices 1366px to up */
+@media (min-width: 1366px) {
+.block-wirless h3 {
+    margin-bottom: 3.4375rem;
+}
+.block-wirless img {
+    margin: initial;
+}
+.block-wirless .box-info p {
+    text-align: left;
+}
+}
+/* End Style Block Wirless */
+
+
+
+
+
+
+
+          
+            
+            
+    

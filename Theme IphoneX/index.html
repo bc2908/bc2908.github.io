@@ -1,49 +1,159 @@
-<<!DOCTYPE html>
-    <html>
+<!DOCTYPE html>
+<html>
 
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Iphone X</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
-            crossorigin="anonymous">
-        <script src="js/main.js"></script>
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Iphone X</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+        crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
 
-    <body>
-        <div class="container">
-            <div class="row block-home">
-                <div class="logo col-md-2 col-sm-2  col-2">
-                    <img src="img/logo.png">
-                </div>
-                <div class="menu-home col-md-10 col-sm-10  col-10">
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
+<body>
+    <!-- Header -->
+    <header class="container">
+        <!-- Block Home -->
+        <div class="row block-home bg-blue">
+            <!-- Menu Home -->
+            <nav class="navbar navbar-expand-md menu-home">
+
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" class="pb-2">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerMenuHome" aria-controls="navbarTogglerMenuHome"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-align-justify" aria-hidden="true"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerMenuHome">
+                    <ul class="nav justify-content-end navbar-nav">
+                        <li class="nav-item active">
                             <a class="nav-link" href="#">HOME</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item no-active">
                             <a class="nav-link" href="#">FEATURES</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item no-active">
                             <a class="nav-link" href="#">CONTACT</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item no-active">
                             <a class="nav-link" href="#">BUY NOW</a>
                         </li>
                     </ul>
-                </div>  
+                </div>
+                <!-- End Menu Home -->
+            </nav>
+            <!-- Left Home -->
+            <div class="col-md-6 col-sm-6 col-12 part-left-home box-left">
+                <img src="img/ip-left-home.png" class="img-fluid">
+                <h4 class="text-uppercase">The Future is here</h4>
+                <p class="h6 text-justify p-first">Our vision has always been to create an iPhone that is entirely screen.</p>
+                <P class="h6 text-justify">One so immersive the device itself disappears into the experience.</P>
+                <p class="h6 text-justify">And so intelligent it can respond to a tap, your voice, even a glance.</p>
+                <p class="h6 text-justify">With iPhone X, that vision is now a reality. Say hello to the future.</p>
+                <button type="button" class="btn">Order Now</button>
             </div>
-            <div class="row block-home">
-                <div class="col-md-6 col-sm-6  col-6">
-                    <img src="img/ip-left-home.png">
+            <!-- End Left Home -->
+
+            <!-- Right Home -->
+            <div class="col-md-6 col-sm-6 col-12 part-right-home">
+                <img src="img/ip-right-home.png" class="img-fluid">
+            </div>
+            <!-- End Right Home -->
+        </div>
+        <!-- End Block Home -->
+    </header>
+    <!-- End Header -->
+
+    <!-- Block Why Iphone -->
+    <section class="container">
+        <div class="row block-why-ip">
+            <!-- Title Block -->
+            <div class="col-md-12">
+                <h3>Why iPhone X</h3>
+            </div>
+            <!-- End Title Block -->
+
+            <!-- Content Block Why Iphone-->
+            <div class="col-md-6 col-lg-3">
+                <div class="d-flex flex-column">
+                    <div class="box-info p-2 left-title-info">
+                        <h5>Infrared Camera</h5>
+                        <p>An infrared camera reads the dot pattern,then sends the data to the Secure Enclave in the A11 Bionic
+                            chip to confirm a match.</p>
+                    </div>
+                    <div class="box-info p-2 left-title-info">
+                        <h5>True Tone</h5>
+                        <p>True Tone technology uses an advanced six‑channel ambient light sensor to subtly adjust the color
+                            temperature of the light.</p>
+                    </div>
+                    <div class="box-info p-2 left-title-info">
+                        <h5>Intuitive Gestures</h5>
+                        <p>Familiar gestures make navigation natural and intuitive. Instead of pressing a button, a single swipe
+                            takes you home from anywhere.</p>
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-6  col-6">
-                    <img src="img/ip-right-home.png">
+            </div>
+
+            <div class="col-lg-6">
+                <img src="img/ip-info.png" class="img-fluid">
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="d-flex flex-column">
+                    <div class="box-info p-2 right-title-info">
+                        <h5>Front Camera</h5>
+                        <p>A tiny space houses some of the most sophisticated technology, including the cameras and sensors
+                            that enable Face ID.</p>
+                    </div>
+                    <div class="box-info p-2 right-title-info">
+                        <h5>Super Retina Display</h5>
+                        <p>With iPhone X, the device is the display. An all‑new 5.8‑inch Super Retina screen fills the hand
+                            and dazzles the eyes.1.</p>
+                    </div>
+                    <div class="box-info p-2 right-title-info">
+                        <h5>OLED Designed</h5>
+                        <p>The first OLED screen that rises to the standards of iPhone, with stunning colors, high brightness,
+                            and a 1,000,000 to 1 contrast ratio.</p>
+                    </div>
                 </div>
+            </div>
+            <!-- End Content Block Why Iphone -->
+        </div>
+    </section>
+    <!-- End Block Why Iphone -->
+
+    <!-- Block Wirless -->
+    <section class="container">
+        <div class="row block-wirless bg-blue">
+            <div class="col-md-6 box-left">
+                <div class="box-info p-2">
+                    <h3>Wirless Connectivity</h3>
+                    <p>With no charging cable required, iPhone X is truly designed for the future of wireless.4 Charge with
+                        wireless charging stations and mats in hotels, cafes, and airports around the world.</p>
+                    <p>Wireless charging for a wireless world. Charge with wireless charging stations and mats in hotels, cafes,
+                        and airports around the world.Introducing the AirPower mat. Just set your iPhone, Apple Watch, and
+                        AirPods anywhere on the mat to charge them wirelessly.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="img/wifi.png" class="img-fluid">
             </div>
         </div>
-    </body>
+    </section>
+    <!-- End Block Wirless -->
 
-    </html>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

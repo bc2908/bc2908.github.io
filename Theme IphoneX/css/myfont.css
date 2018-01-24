@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('../font/raleway-semibold_allfont.net-webfont.eot');/* IE9 Compat Modes */
+    src: url('../font/raleway-semibold_allfont.net-webfont.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */
+         url('../font/raleway-semibold_allfont.net-webfont.woff2') format('woff2'),/* Super Modern Browsers */
+         url('../font/raleway-semibold_allfont.net-webfont.woff') format('woff'),/* Pretty Modern Browsers */
+         url('../font/raleway-semibold_allfont.net-webfont.ttf') format('truetype'),/* Safari, Android, iOS */
+         url('../font/raleway-semibold_allfont.net-webfont.svg#ralewaysemibold') format('svg');/* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
