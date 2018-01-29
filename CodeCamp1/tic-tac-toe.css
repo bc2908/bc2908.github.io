@@ -1,0 +1,43 @@
+.title-game
+{
+    width: 100%;
+    text-align: center;
+}
+.box-check
+{
+    height: 100px;
+    background-color: goldenrod;
+}
+.o-check
+{
+    height: inherit;
+    text-align: center;
+    display: none;
+}
+.o-check img
+{
+    width: 25px;
+    margin-top: 38px;
+}
+.x-check
+{
+    height: inherit;
+    text-align: center;
+    display: none;
+}
+.x-check img
+{
+    width: 25px;
+    margin-top: 30px;
+}
+
+.results
+{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+.tool-game
+{
+    text-align: center;
+}
