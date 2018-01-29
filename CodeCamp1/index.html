@@ -1,13 +1,124 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CodeCampJS</title>
+    <title>Tic-Tac-Toe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="codecamp.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="tic-tac-toe.css" type="text/css">
 </head>
+
 <body>
-    <h1>CodeCamp JS</h1>
+    <div class="container">
+
+        <div class="row">
+            <h1 class="title-game">Tic-Tac-Toe</h1>
+        </div>
+
+        <div class="row row-check-1">
+            <div class="col-md-4 col-sm-4 col-4 border border-secondary box-check">
+                <div class="x-check cl-1 x-1">
+                    <img src="img/x.svg">
+                </div>
+                <div class="o-check cl-1 x-1">
+                    <img src="img/circle48.svg">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4 border border-secondary box-check">
+                <div class="x-check cl-2">
+                    <img src="img/x.svg">
+                </div>
+                <div class="o-check cl-2">
+                    <img src="img/circle48.svg">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4 border border-secondary box-check">
+                <div class="x-check cl-3 x-2">
+                    <img src="img/x.svg">
+                </div>
+                <div class="o-check cl-3 x-2">
+                    <img src="img/circle48.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-check-2">
+            <div class="col-md-4 col-sm-4 col-4 border border-secondary box-check">
+                <div class="x-check cl-1">
+                    <img src="img/x.svg">
+                </div>
+                <div class="o-check cl-1">
+                    <img src="img/circle48.svg">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4 border border-secondary box-check">
+                <div class="x-check cl-2 x-1 x-2">
+                    <img src="img/x.svg">
+                </div>
+                <div class="o-check cl-2 x-1 x-2">
+                    <img src="img/circle48.svg">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4 border border-secondary box-check">
+                <div class="x-check cl-3">
+                    <img src="img/x.svg">
+                </div>
+                <div class="o-check cl-3">
+                    <img src="img/circle48.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-check-3">
+            <div class="col-md-4 col-sm-4 col-4 border border-secondary box-check">
+                <div class="x-check cl-1 x-2">
+                    <img src="img/x.svg">
+                </div>
+                <div class="o-check cl-1 x-2">
+                    <img src="img/circle48.svg">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4 border border-secondary box-check">
+                <div class="x-check cl-2">
+                    <img src="img/x.svg">
+                </div>
+                <div class="o-check cl-2">
+                    <img src="img/circle48.svg">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4 border border-secondary box-check">
+                <div class="x-check cl-3 x-1">
+                    <img src="img/x.svg">
+                </div>
+                <div class="o-check cl-3 x-1">
+                    <img src="img/circle48.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="alert alert-primary results" role="alert">
+                Results
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-12 tool-game">
+                <button type="button" class="btn btn-success">New Game</button>
+                <button type="button" class="btn btn-success">Play X: 5W</button>
+                <button type="button" class="btn btn-success">Play O: 2W</button>
+                <button type="button" class="btn btn-success">Continue</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="tic-tac-toe.js"></script>
+    <script src="codecamp.js"></script>
 </body>
+
 </html>
