@@ -22,6 +22,9 @@ h3 {
     .box-left {
         padding-left: 1.875rem;
     }
+    .box-right {
+        padding-right: 1.875rem;
+    }
 }
 /* End Global */
 
@@ -221,13 +224,16 @@ h3 {
 @media (min-width: 1366px) {
 .block-why-ip .col-lg-3 {
     padding-top: 3.125rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    padding-bottom: initial;
 }
 .block-why-ip .box-info h5 {
     margin-bottom: 1.875rem;
     margin-top: 0.625rem;
 }
 .block-why-ip .box-info.right-title-info:last-child h5 {
-    margin-top: 2.0625rem;
+    margin-top: 0.875rem;
 }
 }
 /* End Style Block Why Iphone */
@@ -281,6 +287,119 @@ h3 {
 }
 }
 /* End Style Block Wirless */
+
+/* Style Block Secure */
+/* Style devices phone */
+.block-secure .box-left {
+    text-align: center;
+}
+.block-secure img {
+    width: 11.875rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+/* Style devices 768px to up */
+@media (min-width: 768px) {
+.block-secure .box-right {
+    padding-top: 2.5rem;
+}
+.block-secure img {
+    width: 14.6875rem;
+}
+.block-secure h3 {
+    text-align: left;
+}
+}
+
+/* Style devices 1024px to up */
+@media (min-width: 1024px) {
+.block-secure h3 {
+    margin-bottom: 3.125rem;
+}
+.block-secure img {
+    width: 21.875rem;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+}
+.block-secure .box-right {
+    padding-top: 16.875rem;
+}
+}
+/* End Style Block Secure */
+
+/* Style Block Slide */
+/* Style devices phone */
+.block-slide .card-deck {
+    padding: 1.5625rem;
+}
+.block-slide .card {
+    box-shadow: 0px 10px 30px #b7b7ba;
+    border-color: white;
+    display: none;
+}
+.block-slide .show-slider {
+    display: initial;
+}
+.block-slide img {
+    height: 3.125rem;
+    margin-top: 0.75rem;
+}
+.block-slide h5 {
+    margin-bottom: 0;
+    margin-top: 0.3125rem;
+}
+.block-slide p {
+    text-align: center;
+}
+.block-slide .button-holder {
+    position: relative;
+    text-align: center;
+}
+.block-slide .slider-change {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #989898;
+}
+.block-slide .slider-change.button-active {
+    background-color: #855aa4;
+}
+
+/* Style devices 768px to up */
+@media (min-width: 768px) {
+
+}
+
+/* Style devices 1024px to up */
+@media (min-width: 1024px) {
+
+}
+/* End Style Block Slide */
+
+/* Style Block Video Intro */
+/* Style devices phone */
+.block-video img.bg-video {
+    height: 200px;
+    position: relative;
+}
+
+/* Style devices 768px to up */
+@media (min-width: 768px) {
+.block-video img.bg-video {
+    height: 400px;
+}
+}
+
+/* Style devices 1024px to up */
+@media (min-width: 1024px) {
+.block-video img.bg-video {
+    height: 500px;
+}
+}
+/* End Style Block Video Intro */
+
 
 
 
