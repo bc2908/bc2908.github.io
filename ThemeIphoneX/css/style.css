@@ -380,23 +380,105 @@ h3 {
 
 /* Style Block Video Intro */
 /* Style devices phone */
-.block-video img.bg-video {
-    height: 200px;
+.block-video {
     position: relative;
+}
+.block-video .screen-ip {
+    display: none;
+}
+.block-video .media-play {
+    position: absolute;
+    border: none;
+    z-index: 1;
+    width: 100%;
+    height: 250px;
+    padding: 15px;
 }
 
 /* Style devices 768px to up */
 @media (min-width: 768px) {
-.block-video img.bg-video {
-    height: 400px;
+.block-video {
+    background-image: url(../img/bg-video.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 400px;
 }
+.block-video .screen-ip {
+    display: block;
+    position: absolute;
+    height: 250px;
+    top: 20%;
+    left: 15%;
+}
+.block-video .media-play {
+    width: 55%;
+    height: 220px;
+    top: 24%;
+    left: 22%;
+    padding: 0;
+} 
+}
+
+/* Style devices 998px to up */
+@media (min-width: 998px) {
+.block-video .screen-ip {
+    left: 25%;
+}
+.block-video .media-play {
+    width: 40%;
+    left: 31%;
+} 
 }
 
 /* Style devices 1024px to up */
 @media (min-width: 1024px) {
-.block-video img.bg-video {
-    height: 500px;
+.block-video {
+    min-height: 500px;
 }
+.block-video .screen-ip {
+    height: 350px;
+    top: 16%;
+    left: 15%;
+}
+.block-video .media-play {
+    width: 55%;
+    height: 310px;
+    top: 20%;
+    left: 24%;
+} 
+}
+
+/* Style devices 1180px to up */
+@media (min-width: 1180px) {
+.block-video .media-play {
+    width: 48%;
+    left: 22%;
+} 
+}
+
+/* Style devices 1345px to up */
+@media (min-width: 1345px) {
+.block-video .screen-ip {
+    left: 20%;
+}
+.block-video .media-play {
+    left: 27%;
+} 
+}
+
+/* Style devices 1366px to up */
+@media (min-width: 1366px) {
+.block-video .screen-ip {
+    height: 400px;
+    top: 10%;
+    left: 15%;
+}
+.block-video .media-play {
+    width: 650px;
+    height: 350px;
+    top: 15%;
+    left: 22%;
+}    
 }
 /* End Style Block Video Intro */
 
