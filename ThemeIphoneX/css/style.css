@@ -1,6 +1,6 @@
 /* Import My Font */
 @import url("myfont.css");
-* {
+.block-home, .block-why-ip, .block-wirless, .block-secure, .block-secure, .block-slide, .block-video {
     font-family: "ralewaysemibold",Arial, Helvetica, sans-serif;
 }
 /* End My Font */
@@ -369,12 +369,9 @@ h3 {
 
 /* Style devices 768px to up */
 @media (min-width: 768px) {
-
+.block-slide .button-holder {
+    padding-bottom: 1.875rem;
 }
-
-/* Style devices 1024px to up */
-@media (min-width: 1024px) {
-
 }
 /* End Style Block Slide */
 
@@ -382,6 +379,7 @@ h3 {
 /* Style devices phone */
 .block-video {
     position: relative;
+    min-height: 15.625rem;
 }
 .block-video .screen-ip {
     display: none;
@@ -481,6 +479,45 @@ h3 {
 }    
 }
 /* End Style Block Video Intro */
+
+/* Style Block Product */
+/* Style devices phone */
+.block-product .col-md-6 {
+    text-align: center;
+}
+.block-product h3 {
+    margin-top: 1.875rem;
+    margin-bottom: 3.125rem;
+}
+.block-product img {
+    max-width: 70%;
+    margin-bottom: 1.875rem;
+}
+.block-product .vs-product {
+    color: #ff002e;
+}
+.block-product .price-product {
+    color: #0035a3;
+}
+/* End Style Block Product */
+
+/* Style Block Shop */
+/* Style devices phone */
+.block-shop h3 {
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+.block-shop .col-md-3 {
+    text-align: center;
+}
+.block-shop img {
+    max-width: 50%;
+    margin-bottom: 3.125rem;
+}
+.block-shop img#shopify {
+    margin-top: -0.5rem
+}
+/* End Style Block Shop */
 
 
 
