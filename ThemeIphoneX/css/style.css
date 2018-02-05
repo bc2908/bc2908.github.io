@@ -1,6 +1,6 @@
 /* Import My Font */
 @import url("myfont.css");
-.block-home, .block-why-ip, .block-wirless, .block-secure, .block-secure, .block-slide, .block-video {
+.block-home, .block-why-ip, .block-wirless, .block-secure, .block-secure, .block-slide, .block-video, .block-footer {
     font-family: "ralewaysemibold",Arial, Helvetica, sans-serif;
 }
 /* End My Font */
@@ -16,6 +16,22 @@
 h3 {
     font-size: 2.25rem;
     text-align: center;
+}
+/* Change Color Placeholder Input */
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+    opacity: 1;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+    opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+    opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white;
 }
 /* Style devices 768px to up */
 @media (min-width: 768px) {
@@ -518,6 +534,111 @@ h3 {
     margin-top: -0.5rem
 }
 /* End Style Block Shop */
+
+/* Style Footer */
+/* Style devices phone */
+.block-footer h3 {
+    margin-top: 1.5rem;
+}
+.block-footer form {
+    margin-top: 1.5rem;
+}
+.block-footer p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+.block-connect .form-group {
+    position: relative;
+    width: 100%;
+    background: url(../img/bg-form.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .25rem;
+}
+.block-connect input {
+    display: inline-block;
+    width: 65%;
+    background: inherit;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: none;
+}
+.block-connect span {
+    width: 35%;
+    padding: 6px 0px 6px 0px;
+    background-color: #fe088c;
+    border-radius: .25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+.block-soical {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.box-contact span {
+    padding-right: 3px;
+}
+.box-network {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.box-end {
+    padding-top: 1rem;
+    color: #efeff0;
+}
+.box-end .copy-right {
+    font-size: 0.8rem;
+}
+.box-end a {
+    margin-right: 5px;
+    color: #efeff0;
+}
+
+/* Style devices 375px to up */
+@media (min-width: 375px) {
+.box-end .copy-right {
+    font-size: initial;
+} 
+}
+
+/* Style devices 768px to up */
+@media (min-width: 768px) {
+.block-footer p {
+    font-size: initial;
+}
+.block-connect .form-group {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-network {
+    text-align: right;
+    padding-top: 0.2rem;
+}
+.box-end a {
+    margin-left: 2rem;
+}
+}
+
+/* Style devices 1024px to up */
+@media (min-width: 1024px) {
+.block-connect .form-group {
+    width: 45%;
+}
+}
+
+/* Style devices 1366px to up */
+@media (min-width: 1366px) {
+.block-connect .form-group {
+    width: 40%;
+}
+}
+/* End Style Footer */
 
 
 
