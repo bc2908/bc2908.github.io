@@ -7,6 +7,12 @@
     background-color: #2191c5;
     color: white;
 }
+.title-utilities {
+    text-align: center;
+    color: #2191c5;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
 /* End Global */
 
 /* Style Block Home */
@@ -77,6 +83,22 @@
     .block-home-one .bg-blue p.btn:hover {
         background-color: #f79263;
     }
+    .block-home-one .active-product {
+        border: 0.1rem solid #2191c5;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 2rem;
+        text-align: center;
+        color: #f79263;
+    }
+    .block-home-one .active-product a.btn {
+        background-color: #2191c5;
+        border-color: #2191c5;
+        margin-top: 0.5rem;
+    }
+    .block-home-one .active-product a.btn:hover {
+        background-color: #f79263;
+    }
 
     /* Style devices 768px to up */
     @media (min-width: 768px) {
@@ -85,5 +107,65 @@
     }
     }
 /* End Block Home One */
+
+/* Style Block Home Two */
+    /* Style devices phone */
+    .block-home-two .home-utilities {
+        text-align: justify;
+        padding-top: 8rem;
+        margin-bottom: 2rem;
+    }
+    .block-home-two .home-utilities h5 {
+        text-align: center;
+    }
+    .block-home-two .utilities-1 {
+        background: url(../img/good1.png) no-repeat scroll center top transparent;
+    }
+    .block-home-two .utilities-2 {
+        background: url(../img/good3.png) no-repeat scroll center top transparent;
+    }
+    .block-home-two .utilities-3 {
+        background: url(../img/good5.png) no-repeat scroll center top transparent;
+    }
+    .block-home-two .utilities-4 {
+        background: url(../img/good2.png) no-repeat scroll center top transparent;
+    }
+    .block-home-two .utilities-5 {
+        background: url(../img/good4.png) no-repeat scroll center top transparent;
+    }
+    .block-home-two .utilities-6 {
+        background: url(../img/good7.png) no-repeat scroll center top transparent;
+    }
+    
+    /* Style devices 768px to up */
+    @media (min-width: 768px) {
+    .block-home-two .home-utilities {
+        padding-left: 8rem;
+        padding-top: 0;
+    }
+    .block-home-two .home-utilities h5 {
+        text-align: justify;
+    }
+    .block-home-two .utilities-1 {
+        background: url(../img/good1.png) no-repeat scroll left top transparent;
+    }
+    .block-home-two .utilities-2 {
+        background: url(../img/good3.png) no-repeat scroll left top transparent;
+    }
+    .block-home-two .utilities-3 {
+        background: url(../img/good5.png) no-repeat scroll left top transparent;
+    }
+    .block-home-two .utilities-4 {
+        background: url(../img/good2.png) no-repeat scroll left top transparent;
+    }
+    .block-home-two .utilities-5 {
+        background: url(../img/good4.png) no-repeat scroll left top transparent;
+    }
+    .block-home-two .utilities-6 {
+        background: url(../img/good7.png) no-repeat scroll left top transparent;
+    }
+    }
+/* End Block Home Two */
+
 
 
