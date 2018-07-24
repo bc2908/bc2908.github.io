@@ -1,0 +1,89 @@
+/* Import My Font */
+
+/* End My Font */
+
+/* Global */
+.bg-blue {
+    background-color: #2191c5;
+    color: white;
+}
+/* End Global */
+
+/* Style Block Home */
+    /* Style Menu Home */
+    /* Style devices phone */
+    .menu-home {
+        width: 100%;
+    }
+    .menu-home a {
+        color: #f79263;
+    }
+    .menu-home i {
+        color: #f79263;
+    }
+    .menu-home ul {
+        width: 100%;
+    }
+    .menu-home ul li.active {
+        border-bottom: 0.03125rem solid #f79263;
+    }
+    .menu-home ul li {
+        margin-right: 0.9rem;
+    }
+    .menu-home a:hover {
+        color:white;
+    }
+    .menu-home ul li.active a {
+        color: white;
+    }
+
+    /* Style devices 768px to up */
+    @media (min-width: 768px) and (max-width: 812px) {
+    .menu-home ul li {
+        margin-right: 0;
+    }
+    }
+    /* End Style Menu Home */
+/* End Style Block Home */
+
+/* Style Block Home One */
+    /* Style devices phone */
+    .block-home-one .main-title {
+        text-align: center;
+        color: #2191c5;
+        padding-top: 2rem; 
+        padding-bottom: 2rem;
+    }
+    .block-home-one .icon-one {
+        text-align: center;
+    }
+    .block-home-one p {
+        text-align: center;
+        color: #f79263;
+        margin-top: 0.3rem;
+    }
+    .block-home-one .col-md-6 {
+        padding-bottom: 1.5rem;
+    }
+    .block-home-one .bg-blue {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    .block-home-one .bg-blue p.btn {
+        color: white;
+        border-color: white;
+    }
+    .block-home-one .bg-blue p.btn:hover {
+        background-color: #f79263;
+    }
+
+    /* Style devices 768px to up */
+    @media (min-width: 768px) {
+    .block-home-one p {
+        margin-top: 0.5rem;
+    }
+    }
+/* End Block Home One */
+
+
