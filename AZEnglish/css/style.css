@@ -142,6 +142,7 @@
     .block-home-two .home-utilities {
         padding-left: 8rem;
         padding-top: 0;
+        min-height: 7rem;
     }
     .block-home-two .home-utilities h5 {
         text-align: justify;
@@ -166,6 +167,167 @@
     }
     }
 /* End Block Home Two */
+
+/* Style Block Home Three */
+    /* Style devices phone */
+    .block-home-three .data-statistical p {
+        text-align: center;
+    }
+    .block-home-three .data-statistical i {
+        margin-top: 1.5rem;
+    }
+    .block-home-three .data-statistical h3 {
+        text-align: center;
+        color: #f79263;
+    }
+/* End Block Home Three */
+
+/*Style Block Home Four*/
+    /*Style devices phone*/
+    .block-home-four .card-deck {
+        padding: 1.5625rem;
+    }
+    .block-home-four .card {
+        box-shadow: 0px 10px 30px #b7b7ba;
+        border-color: white;
+    }
+    .block-home-four img {
+        border-radius: 50%;
+        height: 3.125rem;
+        margin-top: 0.75rem;
+    }
+    .block-home-four h5 {
+        margin-top: 0.3125rem;
+    }
+    .block-home-four .button-holder {
+        position: relative;
+        text-align: center;
+    }
+    .block-home-four .slider-change {
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        border-radius: 5px;
+        background-color: #989898;
+    }
+    .block-home-four .slider-change.button-active {
+        background-color: #f79263;
+    }
+
+    /* Style devices 768px to up */
+    @media (min-width: 768px) {
+    .block-home-four .button-holder {
+        padding-bottom: 1.875rem;
+    }
+    }
+/* End Block Home Four */
+
+/* Style Footer */
+/* Style devices phone */
+.block-footer h3 {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.block-footer form {
+    margin-top: 1.5rem;
+}
+.block-footer p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+.block-footer i {
+    color: #f79263;
+}
+.block-connect .form-group {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    border-radius: .25rem;
+}
+.block-connect input {
+    display: inline-block;
+    width: 65%;
+    background: inherit;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: none;
+}
+.block-connect span {
+    width: 35%;
+    padding: 6px 0px 6px 0px;
+    background-color: #f79263;
+    border-radius: .25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+.block-soical {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.box-contact span {
+    padding-right: 3px;
+}
+.box-network {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.box-end {
+    padding-top: 1rem;
+    color: #efeff0;
+}
+.box-end .copy-right {
+    font-size: 0.8rem;
+}
+.box-end a {
+    margin-right: 5px;
+    color: #efeff0;
+}
+
+/* Style devices 375px to up */
+@media (min-width: 375px) {
+.box-end .copy-right {
+    font-size: initial;
+} 
+}
+
+/* Style devices 768px to up */
+@media (min-width: 768px) {
+.block-footer p {
+    font-size: initial;
+}
+.block-connect .form-group {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-network {
+    text-align: right;
+    padding-top: 0.2rem;
+}
+.box-end a {
+    margin-left: 2rem;
+}
+}
+
+/* Style devices 1024px to up */
+@media (min-width: 1024px) {
+.block-connect .form-group {
+    width: 45%;
+}
+}
+
+/* Style devices 1366px to up */
+@media (min-width: 1366px) {
+.block-connect .form-group {
+    width: 40%;
+}
+}
+/* End Style Footer */
 
 
 
