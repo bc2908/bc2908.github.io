@@ -235,7 +235,8 @@
     font-size: 0.9rem;
     margin-bottom: 0;
 }
-.block-footer i {
+.block-footer
+ i {
     color: #f79263;
 }
 .block-connect .form-group {
