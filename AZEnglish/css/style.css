@@ -33,6 +33,9 @@
     .menu-home ul li.active {
         border-bottom: 0.03125rem solid #f79263;
     }
+    .menu-home a.aa {
+        border: 1px solid #2191c5;
+    }
     .menu-home ul li {
         margin-right: 0.9rem;
     }
@@ -41,6 +44,16 @@
     }
     .menu-home ul li.active a {
         color: white;
+    }
+    .menu-home .modal {
+        color: #2191c5;
+    }
+    .menu-home input {
+        margin-bottom: 1rem;
+    }
+    .menu-home .modal-title {
+        width: 100%;
+        text-align: center;
     }
 
     /* Style devices 768px to up */

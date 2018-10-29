@@ -47,10 +47,66 @@
                             <a class="nav-link" href="#">Tin tức</a>
                         </li>
                         <li class="nav-item no-active">
-                            <a class="nav-link" href="#">Đăng nhập</a>
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">Đăng nhập</a>
+                            <!-- Login Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <form>
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">ĐĂNG NHẬP</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="" placeholder="Tên đăng nhập">
+                                                    <input type="text" class="form-control" id="" placeholder="Mật khẩu">
+                                                </div>
+                                                <div class="form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Ghi nhớ đăng nhập</label>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary">Quên mật khẩu</button>
+                                                <button type="button" class="btn btn-primary">Đăng nhập</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Login Modal-->
                         </li>
                         <li class="nav-item no-active">
-                            <a class="nav-link" href="#">Đăng ký</a>
+                            <a class="nav-link aa" href="#" data-toggle="modal" data-target="#exampleModalCenter1">Đăng ký</a>
+                            <!-- Sigup Modal -->
+                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <form>
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle1">ĐĂNG KÝ</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="" placeholder="Email">
+                                                    <input type="text" class="form-control" id="" placeholder="Tên đăng nhập">
+                                                    <input type="text" class="form-control" id="" placeholder="Mật khẩu">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary">Đăng ký</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Sigup Modal-->
                         </li>
                     </ul>
                 </div>
@@ -359,7 +415,8 @@
             <div class="col-md-12">
                 <h3>Kết nối với chúng tôi</h3>
                 <p class="text-center">Gửi email của bạn cho chúng tôi để nhận những thông tin mới nhất về sản phẩm và những tin tức tiếng anh thú
-                    vị</p>
+                    vị
+                </p>
                 <form>
                     <div class="form-group">
                         <input type="email" class="form-control" id="inputEmail" placeholder="Địa chỉ email của bạn">
